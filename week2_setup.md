@@ -29,5 +29,5 @@ I need to clone the repository from the shared GitHub, for which i have follwed 
 * Enter the shared GitHub link in the repository location, and then click on the option "Clone".
 ![Visual Studio Clone Repository Window](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/vsClone.png)
 
-*Upon loading, the shared GitHub respository should be cloned to your deisgnated path, and ready to be worked with as follow. 
+* Upon loading, the shared GitHub respository should be cloned to your deisgnated path, and ready to be worked with as follow. 
 ![Visual Studio Clone Repository Window](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/vsSet.png)
