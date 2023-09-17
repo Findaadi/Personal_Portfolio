@@ -7,9 +7,9 @@ The main requirements are to show that:
 1. Your development environment is correctly set up
 2. You understand the setup including potential alternative configuration settings
 
-## Environment configuration
+## testing
 
-Here, you should include appropriate screenshots with additional commentary. 
+setup
 
 **DO**
 
