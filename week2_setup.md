@@ -1,8 +1,21 @@
-# Setup
+# Week 2: Setup
 
-This section documents your practical work in week 2.
+* This is the first week of classes for Software Engineering Module. 
+* For this practical task, I have demostated the setup of my development environment I am working as a part of a team.
+* In this module, I, along with my team will be using GitHub for code hosting, version control and collaboration, and Visual Studio as the IDE.
+* We chose GitHub instead of alternatives such as Gitlab, Bitbucket or a self-hosted repository due to the ease of use,<br>
+team members prior experience with this platform and per recommendation of our module leader. Along with this, the use of Visual Studio is as per the team's and module leader's chosen IDE instead of alternatives<br> 
+such as Eclipse, Rider etc. 
 
-The main requirements are to show that:
+## GitHub Setup
+
+* In order to collaborate with the team, we required a shared GitHub repository. 		
+  As a team, we decided a member of the team will create a shared GitHub repository for the team.
+* Green Team Shared Github Repository: 
+![Green Team GitHub Repository](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/greenTeam.png)
+
+
+
 
 1. Your development environment is correctly set up
 2. You understand the setup including potential alternative configuration settings
