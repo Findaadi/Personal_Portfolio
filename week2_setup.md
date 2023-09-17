@@ -12,7 +12,7 @@ The main requirements are to show that:
 setup
 
 **DO**
-test image: ![Test image!](C:\Users\findi\Source\Repos\Personal_Portfolio\images\projectBoard.png)
+test image: ![Test image!](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/VSone.png)
 * Place your image files in the `images` folder
 * Choose your screenshots carefully so that they communicate the appropriate information.
   Many screenshots with no clear purpose or with trivial differences are of little value.
