@@ -1,74 +1,46 @@
 # Week 2: Workflow
 
-## .NET MAUI Test App
-This week I got the opportunity to familarize myself with C# and .NET MAUI as I was given instructions to build a Notes app that uses SQLite Database. 
-The tutorial I follwed was from Microsoft to creat a .NET MAUI app. 
-Link : https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/
+## Exploring .NET MAUI
+
+This week I got an exciting opportunity to familarize myself with C# and .NET MAUI. My task was to create a Notes app
+that utilizes the SQLite Database. I worked on this app following the detailed instructions provided by Microsoft, that guided 
+me towards the build of my first .NET MAUI app. 
+You can access the tutorial here: [Link](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/)
 
 Upon completion, the notes app could save notes and allow the user to update them individually.
 Image of the Notes app: 
 ![Notes App](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/notesApp.png)
 
-## Team workflow
+## Team Collaboration with GitHub
 
-As per our module leader's instruction, we will be using Github flow for the teamwork. 
-For more information on use of GitHub Flow by us for teamwork is to be found here: https://github.com/wardliii/Green-Team/blob/main/WorkFlow.md
+As per our module leader's instruction, our team has adapted the use of Github Flow for collaborating on a project. 
+For more information on use of GitHub Flow by us for teamwork is to be found here: [Link]( https://github.com/wardliii/Green-Team/blob/main/WorkFlow.md)
 ![GitHub Flow](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/Githubflow.png)
 
-## Issues
+## Addresing Assigned Issues
 
-For the next task, we were provided with some issues to be fixed by every team member individually. We initially had to import the issues 
-to our team project and the teammembers would commit to one each to fix them.
-We imported the issues to our team project. I commited to one of the issues from the backlog, and created a new branch for me to work on the issue.
+For the next task, we were provided with some issues to be resolved by every team member individually. We initially had to import the issues 
+to our team project and the teammembers would assign to one each to fix them.
+We imported the issues to our team project. I personally assigned myself to one of the issues from the backlog, and created a new branch for me to work on the issue.
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/board.png" alt="Task Board" width="400">
     <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/branch.png" alt="Branches" width="400">
 </div>
 
+## Workflow Interuption and Resolution
 
-The main requirements are to show that:
-
-1. You know how to use the workflow tools in GitHub
-2. You have successfully carried out the required operations which are:
-   * Accept a task from the project backlog
-   * Update the task information appropriately
-   * Update the task board appropriately
-   * Complete the development task on a feature branch
-   * Commit your changes with appropriate comments
-   * Check your work against the Definition of Done (DoD)
-   * Make a pull request
-
-## Task workflow
-
-Here, you should use screenshots and descriptive commentary to show that the required
-have been completed successfully.
-
-**DO**
-
-* Consider the layout of your content from the point of view of the reader. Many raw
-  screenshots will take up a lot of space. It may be better to adopt a different strategy
-  such as
-  * Using thumbnails with links to full-size images
-  * Combining two or more screenshots into a single image 
-  * Using partial screenshots to highlight only the important information
-  * etc.
-* Provide links to the actual objects (e.g. task, pull request, etc.) in the team project
-  in GitHub
-* Read through your work to make sure that the information comes across clearly
-
-**DON'T**
-
-* Use humour or informal language
-* Waste space with trivial or self-evident commentary
-* Abbreviate your commentary using (e.g. by using bullet points). Your text should be in
-  the form of grammatically correct sentences.
+During this task, the team came accross an issue on the app due to which it stopped functioning. Due to this unexpected challenge, our 
+workflow got disrupted and the team members including myself couldn't work on the issues that was assigned to us in
+the expected timescale. However, at the last minute we managed to fix the app, allowing the team to work on their issue in their branches
+moving forward. 
 
 ## Reflection
 
-Here, you should highlight any difficulties that you faced in completing the task, and
-how you resolved them.
+This weeks task was a quite challenging to understand at first. Due to my past modules not including the workings with GitHub and C#, it
+was a challenge to get used to with this new way of working and collaborating with a team. 
+This workflow surely is more of what an actual software engineering job would involve, which makes me excited to learn more about this and
+gather most knowledge I can. 
 
-You should also briefly discuss the current process and how it could be refined or
-improved in future iterations. For example, is the DoD adequate or too onerous? Is the
-current procedure for updating the task appropriate? Is the task board configured to
-work in an intuitive way?
+The GitHub flow surely allowed us to effectively manage our tasks and project progress. Moving forward, I will be working
+on the issue assigned to myself and resolve it on my branch. Overall, the tasks and challenges that came along this week has brought valuable
+opportunity to learn and grow our individual knowledge and work together effectively as a team. 
