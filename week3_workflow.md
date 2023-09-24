@@ -1,6 +1,20 @@
-# Workflow
+# Week 2: Workflow
 
-This section documents your practical work in week 3.
+## .NET MAUI Test App
+This week I got the opportunity to familarize myself with C# and .NET MAUI as I was given instructions to build a Notes app that uses SQLite Database. 
+The tutorial I follwed was from Microsoft to creat a .NET MAUI app. 
+Link : https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/
+
+Upon completion, the notes app could save notes and allow the user to update them individually.
+Image of the Notes app: 
+![Notes App](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/notesApp.png)
+
+## Team workflow
+
+As per our module leader's instruction, we will be using Github flow for the teamwork. 
+For more information on use of GitHub Flow by us for teamwork is to be found here: https://github.com/wardliii/Green-Team/blob/main/WorkFlow.md
+![GitHub Flow](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/Githubflow.png)
+
 
 The main requirements are to show that:
 
