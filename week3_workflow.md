@@ -15,6 +15,16 @@ As per our module leader's instruction, we will be using Github flow for the tea
 For more information on use of GitHub Flow by us for teamwork is to be found here: https://github.com/wardliii/Green-Team/blob/main/WorkFlow.md
 ![GitHub Flow](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/Githubflow.png)
 
+## Issues
+
+For the next task, we were provided with some issues to be fixed by every team member individually. We initially had to import the issues 
+to our team project and the teammembers would commit to one each to fix them.
+We imported the issues to our team project. I commited to one of the issues from the backlog, and created a new branch for me to work on the issue.
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/board.png" alt="Task Board" width="400">
+    <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/branch.png" alt="Branches" width="400">
+</div>
+
 
 The main requirements are to show that:
 
