@@ -1,8 +1,8 @@
 # Code review
-
+```
 This section documents your practical work from week 4 in which you attempt a series of 
 code review challenges. For your portfolio, do the following:
-
+```
 1. Choose the code review challenge which best demonstrates your skills.
 2. Copy the code into your portfolio using a Markdown
    [fenced code block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
