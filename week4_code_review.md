@@ -33,6 +33,7 @@ namespace MyApplication
 
 This is the code to be reviewied. I have identified some issues in this code which are as follows: 
 
+1) Inconsistent type
 ```
 Current Code:
 static bool check(Int i)
@@ -42,6 +43,7 @@ static bool check(int i)
 ```
 - The code is violating C# coding convention as it used type 'Int' instead of 'int' for the check method. 
 
+2) Unclear method
 ```
 Current Code:
 static bool check(Int i) 
@@ -79,23 +81,10 @@ namespace MyApplication
 ```
 
 
-1. Choose the code review challenge which best demonstrates your skills.
-2. Copy the code into your portfolio using a Markdown
-   [fenced code block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
-3. Provide some descriptive commentary that identifies the problems.
-4. Show your improved version of the code in a second code block.
-5. Explain in one or more paragraphs why your solution is a good one.
+## Explanation
 
-**DO**
+The provided code had some issues including inconsistent type and a unclear name of the method, which have been fixed in the improved version. ~
+The changes included the change of method name to "IsEvenNumber" and the correction of "Int" to "int". These changed improve the code readability and adhere to coding conventions. 
+Besides this, the code seems to be consistent with general clean code principles and doesn't violate them. 
 
-* Use grammatically correct sentences and paragraphs for your commentary.
-* Make clear reference to the code in your commentary. GitHub Markdown does not support
-  line numbers and so you need to make sure that the reader knows which line you are
-  referring to from your description.
-* Refer to recognised principles or rules when describing your solution. "I thought it
-  would be better that way" is not sufficient: you need to have specific reasons.
 
-**DON'T**
-
-* Include multiple examples. Make the decision about which example shows your best
-  work and use that one.
