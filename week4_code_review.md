@@ -83,7 +83,7 @@ namespace MyApplication
 
 ## Explanation
 
-The provided code had some issues including inconsistent type and a unclear name of the method, which have been fixed in the improved version. ~
+The provided code had some issues including inconsistent type and a unclear name of the method, which have been fixed in the improved version.
 The changes included the change of method name to "IsEvenNumber" and the correction of "Int" to "int". These changed improve the code readability and adhere to coding conventions. 
 Besides this, the code seems to be consistent with general clean code principles and doesn't violate them. 
 
