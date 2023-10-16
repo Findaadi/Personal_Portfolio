@@ -14,24 +14,25 @@ the Hangman game.
 
 
 ![Unit test ](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest1.png)
-![Unit test https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest2.png)
+![Unit test ](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest2.png)
 ![Unit test ](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest3.png)
 ![Unit test ](https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest4.png)
 
+### Explanation 
 
-The practical exercise in week 6 involved competitive testing. For your portfolio entry,
-select two pieces of test code that you wrote that best illustrate your skills in this
-area.
+1. Test_CheckLetterInWord_Easy_True: Tests if the CheckLetterInWord function is correctly returning true for letter 'a' which is in the easy difficulty word "aadi",
 
-For each example
+2. Test_CheckLetterInWord_Easy_False: Tests if the function is correctly returning false for letter 'z' that is not present in the easy difficulty word "aadi",
 
-* Summarise the purpose of the code you were testing
-* Include the test code
-* Provide a brief explanation of the test(s) that are performed
-* Explain why this is an important aspect of the code to test
-* Identify any limitations of your tests (this may be something that you realised after
-  the evaluation).
+3. Test_CheckLetterInWord_Medium_True: Tests if the function is correctly returning true for letter 'a' which is in the medium difficulty word "adarshaa",
 
-Did you manage to write a test which failed during the final evaluation? If so, that would
-make an excellent example. You should briefly discuss why the writer of the code might 
-have overlooked the particular test case that failed.
+4. Test_CheckLetterInWord_Medium_False: Tests if the function is correctly returning false for letter 'z' that is not present in the medium difficulty word "adarshaa",
+
+5. Test_CheckLetterInWord_Hard_True: Tests if the function is correctly returning true for letter 'o' which is in the hard difficulty word "mounteverest",
+
+6. Test_CheckLetterInWord_Hard_False: Tests if the function is correctly returning false for letter 'l' that is not present in the hard difficulty word "mounteverest",
+
+These tests are essential as they are verifying the correctness of vital functionality of the hangman game which is checking a given word is a part of the word which is being guessed.
+This is an important part of the game and is necessary to get it right to avoid any issues in the games experience. 
+
+The test only focuses on the individual letter checking part of the functionality and don't cover other aspects of the game which is what its limited to. 
