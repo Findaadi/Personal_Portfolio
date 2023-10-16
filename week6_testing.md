@@ -13,10 +13,10 @@ the Hangman game.
 ### Test Code
 
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest1.png" width="300" height="200">
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest2.png" width="300" height="200">
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest3.png" width="300" height="200">
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest4.png" width="300" height="200">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest1.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest2.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest3.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/unittest4.png" width="500" height="400">
 
 ### Explanation 
 
