@@ -158,15 +158,15 @@ namespace UNDAC_App.Models
 
 Furthermore, the following feedback was provided on the same file:
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review4.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review4.png" width="500" height="100">
 
 __The other reviews I received for my code are as follows:__ 
 
 ViewStockLevel.xaml
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review2.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review2.png" width="500" height="100">
 
 Views/MainPage.xaml
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review3.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review3.png" width="500" height="100">
 
 
 
