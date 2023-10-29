@@ -5,6 +5,7 @@ UN Disaster Assesment and coordination (UNDAC) App. More information on it can b
 There are a bunch of issues provided to the team to work on for the development of this application. **[Issues](https://github.com/edinburgh-napier/SET09102/blob/main/practicals/issues/week_8.md)**
 
 In our team, the issues are imported to the team repo and kept on the project board by assigning ourself to the issues we want to work on. 
+
 <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/board1.png" width="500" height="400">
 
 ## Issue worked on
@@ -76,6 +77,32 @@ The following codes were added to MainPage, that are self explanatory.
         }
 
 ```
+
+## Code Review
+
+This weeks task was to do a code review for someone else's code and to also request for a code review on your code. I reviewed the code for a team member
+ who's task was to view a list of all local media agencies. I requested my code to be reviewed to one of the team member to receive feedback for any potential changes. 
+
+## Code I reviewed
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/mark1.png" width="500" height="400">
+
+For mediaAgencyListButton_clicked in MainPage.xaml.cs
+
+The method nagivates to the “MediaAgecyList” page and it also announces the action for screen readers. 
+It is good practice to separate the concerns by creating separate method for screen reader announcements, 
+but looking at the other methods, this way of handling the screen reader seems to be normal practice. 
+It is also good practice to have a try catch block for better error handling if the navigation fails. 
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/mark2.png" width="500" height="400">
+
+For MediaAgencyList.xaml.cs:
+
+this class sets up a collection of agencies and assigns it as the item source for mediaAgencyListView. 
+For better redability and potential improvement, it can be considered to keep the addition of agencies in a 
+separate method, which is also better for maintability in future. Additionally, a try catch block can be added for 
+setting the itemsource for better error handling. 
+
 
 
 In week 8, you are exercising all the principles and techniques that have been discussed in the module so far. 
