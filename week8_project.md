@@ -163,33 +163,75 @@ Furthermore, the following feedback was provided on the same file:
 __The other reviews I received for my code are as follows:__ 
 
 ViewStockLevel.xaml
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review2.png" width="500" height="100">
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review2.png" width="500" height="150">
 
 Views/MainPage.xaml
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review3.png" width="500" height="100">
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review3.png" width="500" height="150">
 
 
+## Reflection
 
-In week 8, you are exercising all the principles and techniques that have been discussed in the module so far. 
-Your portfolio entry should demonstrate your ability to integrate the various dimensions of software engineering into your practice. 
-It should include:
+This weeks task accumulated all the knowledge and skills i was taught so far to put it in practice. It was challenging, but
+at the same time very much intresting to go through it. I am still learning how to work with git/github and this was made easier with
+the help of some of my class mates who described and showed me how to use github with details. Seeing someone do it, made it easier for me
+to understand compared to learning it in theory or trying to figure it out myself. 
 
-A descriptive summary of the issue that you worked on.
-Snippets from your code with commentary showing how you have used good software design practice.
-A descriptive summary of the test code that you have written.
-A reflective summary of any changes that were requested during the code review along with your fixes.
-A descriptive summary of any issues you found with the code that you were asked to review.
-A general reflective section that identifies, for example,
-New things you have realised this week
-Common problems that can arise in a team development situation
-How your practice compares to other people's
-etc.
-Be sure to include links to the original items in the team's GitHub repository.
+The issue i assigned myself for this week was to view the stock level of resources. We as a team didn't have a SQL database setup in time, which
+we thought we would have it earlier. However, we were asked to use SQLite if the SQL database can't be setup on time, and i did exactly that.
 
-Marking
-The marks for this portfolio entry will be split as follows:
+This issue wasn't a major challenge in terms of its functionality, but i wanted it to be in accordance to the code we have in our main branch. 
+I followed the coding style which was pushed to the main branch after code reviews of other team members, having different coding convention/style
+wouldn't work well when there are multiple programmers working on the same code base, use of similar coding patterns makes the code base more readable.
 
-Timeliness: 5 marks (one mark will be deducted for each day or partial day that the submission is late).
-Description: 2 marks are awarded for the descriptive content. Please remember that this material will be useful to you in the end-of-module interview, 
-so it is in your interests to make the content detailed and easy to follow.
-Reflection: 3 marks are awarded for the quality of reflection. Again, you should think of this as preparation for the interview assessment.
+Upon following this, I wrote my code and pushed it my branch and went on to review the code of one of my teammates. I then discovered i need to make some changes to
+my own code as the code review i provided for my fellow teammate, would benifit my code as well.
+
+```
+public partial class ViewStockLevel : ContentPage
+    {
+        public ObservableCollection<ResourceItem> Resources { get; set; }
+
+        public ViewStockLevel()
+        
+            InitializeComponent();
+            InitializeResources();
+            DisplayStockLevels();
+        }
+
+        private void InitializeResources()
+        {
+            Resources = new ObservableCollection<ResourceItem>
+            {
+                new ResourceItem { ResourceType = "Food", CurrentStock = 500 },
+                new ResourceItem { ResourceType = "Medical Supplies", CurrentStock = 300 },
+                new ResourceItem { ResourceType = "Cleaning Products", CurrentStock = 750 },
+                //add more resources
+            };
+        }
+
+        private void DisplayStockLevels()
+        {
+            try
+            
+                stockLevelListView.ItemsSource = Resources;
+            }
+            catch (Exception ex)
+            {   
+                Console.WriteLine("An error occurred while displaying stock levels: " + ex.Message
+            }
+        }
+    }
+```
+
+Here, I made the changes that i had suggested in the code review to my team mate. I kept the methods seperate to Initialize resouces and
+to display the stock level. I also added a try catch block for error handling if an error was to occur when displaying stock levels. 
+
+These tasks are making me more efficient in identifying which part of the code can be made better and what changes can be made to make the code cleaner. 
+I still struggle with naming the exact principles the code is violating, but i can point out if something isn't right, then go and look for what the principle is exactly called for it.
+
+To conclude, the indivial learning is getting better week after week, but i am still struggling with the team working aspect. The teamwork seems to be less valued than the individual portfolio task, 
+making the team members focus more on submitting the portfolio on time, rather than on team bonding work. I also feel hesitant at times to ask questions about something to the team if i don't understand it
+ well in the first instance when it comes to task for the team, and spend time later to figure it out. This feels as an actual corporate environment where it sometimes is difficult to have humility and ask for
+ help when needed, but with time you have to learn to do it which will ultimately help you get better at your job and work more efficiently.
