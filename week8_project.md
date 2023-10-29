@@ -83,7 +83,7 @@ The following codes were added to MainPage, that are self explanatory.
 This weeks task was to do a code review for someone else's code and to also request for a code review on your code. I reviewed the code for a team member
  who's task was to view a list of all local media agencies. I requested my code to be reviewed to one of the team member to receive feedback for any potential changes. 
 
-## Code I reviewed
+### Code I reviewed
 
 <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/mark1.png" width="500" height="400">
 
@@ -102,6 +102,71 @@ this class sets up a collection of agencies and assigns it as the item source fo
 For better redability and potential improvement, it can be considered to keep the addition of agencies in a 
 separate method, which is also better for maintability in future. Additionally, a try catch block can be added for 
 setting the itemsource for better error handling. 
+
+### Code Review Feedback
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review1.png" width="500" height="400">
+
+For my code, I received the above feedback that involved a change to be made. Accordingly, I kept the 'ResourceItem' class
+seperately in the Models folder. The Code after this update was as such: 
+
+__ViewStockLevel.xaml.cs__
+```
+using System.Collections.ObjectModel;
+using Microsoft.Maui.Controls;
+using UNDAC_App.Models;
+
+namespace UNDAC_App
+{
+    public partial class ViewStockLevel : ContentPage
+    {
+        public ObservableCollection<ResourceItem> Resources { get; set; }
+
+        public ViewStockLevel()
+        {
+            InitializeComponent();
+
+            Resources = new ObservableCollection<ResourceItem>
+            {
+                new ResourceItem { ResourceType = "Food", CurrentStock = 500 },
+                new ResourceItem { ResourceType = "Medical Supplies", CurrentStock = 300 },
+                new ResourceItem { ResourceType = "Cleaning Products", CurrentStock = 750 },
+                //... other resource types
+            };
+
+            stockLevelListView.ItemsSource = Resources; 
+        }
+    }
+
+
+}
+```
+__ResouceItem.cs__
+
+```
+using SQLite;
+
+namespace UNDAC_App.Models
+{
+    public class ResourceItem
+    {
+        public string ResourceType{get; set; }
+        public int CurrentStock { get; set; }
+    }
+}
+```
+
+Furthermore, the following feedback was provided on the same file:
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review4.png" width="500" height="400">
+
+__The other reviews I received for my code are as follows:__ 
+
+ViewStockLevel.xaml
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review2.png" width="500" height="400">
+
+Views/MainPage.xaml
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/review3.png" width="500" height="400">
 
 
 
