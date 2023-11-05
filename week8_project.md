@@ -34,7 +34,7 @@ namespace UNDAC_App
                 new ResourceItem { ResourceType = "Food", CurrentStock = 500 },
                 new ResourceItem { ResourceType = "Medical Supplies", CurrentStock = 300 },
                 new ResourceItem { ResourceType = "Cleaning Products", CurrentStock = 750 },
-                //add new resource types and items. 
+                //add new resource types and items.
             };
 
             stockLevelListView.ItemsSource = Resources; 
