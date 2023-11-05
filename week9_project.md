@@ -118,11 +118,11 @@ I requested my code to be reviewed to one of the team member to receive feedback
 
 ### Code I reviewed
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview1.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview1.png" width="600" height="400">
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview2.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview2.png" width="600" height="400">
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview2.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview2.png" width="600" height="400">
 
 I have requested for a change in the code. The changes requested are: 
 
