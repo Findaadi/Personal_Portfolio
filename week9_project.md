@@ -123,6 +123,16 @@ I requested my code to be reviewed to one of the team member to receive feedback
 <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview2.png" width="500" height="400">
 
 <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidanCodereview2.png" width="500" height="400">
+
+I have requested for a change in the code. The changes requested are: 
+
+- Create a separate method to update the AccomodationStatusList. 
+- Use appropriate numeric data type for the capacities. 
+
+### Code Review Feedback
+
+
+
 In week 9, you are continuing with the team project. Your portfolio entry should 
 demonstrate how your software engineering practice is improving. It should include
 much the same content as last week's:
