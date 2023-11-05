@@ -131,6 +131,7 @@ I have requested for a change in the code. The changes requested are:
 
 ### Code Review Feedback
 
+I gave feedback to my cole
 
 
 In week 9, you are continuing with the team project. Your portfolio entry should 
