@@ -131,34 +131,27 @@ I have requested for a change in the code. The changes requested are:
 
 ### Code Review Feedback
 
-I gave feedback to my cole
+I received a feedback for my code from my team member after the code review. The code feedbacks are as follows:
 
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback1.png" width="500" height="400">
 
-In week 9, you are continuing with the team project. Your portfolio entry should 
-demonstrate how your software engineering practice is improving. It should include
-much the same content as last week's:
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback2.png" width="500" height="400">
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+I went on to amend the code in order to reflect on the code review feedback. The codebase contained the Backup(1) file in all the branches and
+found out that all of them had the Backup(1) file, which didn't cause any conflicts on my part of the code to be merged into the main branch which
+I confirmed with other team members too. 
 
-Be sure to include links to the original items in the team's GitHub repository.
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback3.png" width="500" height="400">
 
-In the reflective sections, try to identify things that you have done better this week. 
-This could include, for example,
+## Reflection
 
-* Better application of the principles of clean code.
-* Avoiding the repetition of previous mistakes.
-* More comprehensive test coverage.
-* Adoption of a more systematic personal workflow.
-* Improved identification of problems in other people's code.
-* etc.
+This weeks task alligned to the last issue i worked on, so it was more about updating last weeks code to include the issue in hand for this week i.e. to
+have view the supplies of all resources along side the OSSOC resouces. In the way as such in the following:
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/app1.png" width="500" height="400">
+
+I am getting used to the process of software development, working on issues week on week, i am enjoying it now. 
+In regards to the testing, as a team we decided to priorotise focusing on working towards completing the issues remotely as testing has
+caused problems. We plan to discuss in person implementing testing moving forward for week 10 if possible, as the xunit doesnt integrate
+properly with maui in our experiences, which seems like we require some more interaction as a team and learn more about it
+before we intergrate xunit testing in our program.
