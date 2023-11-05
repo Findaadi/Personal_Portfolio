@@ -133,22 +133,22 @@ I have requested for a change in the code. The changes requested are:
 
 I received a feedback for my code from my team member after the code review. The code feedbacks are as follows:
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback1.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback1.png" width="500" height="100">
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback2.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback2.png" width="500" height="200">
 
 I went on to amend the code in order to reflect on the code review feedback. The codebase contained the Backup(1) file in all the branches and
 found out that all of them had the Backup(1) file, which didn't cause any conflicts on my part of the code to be merged into the main branch which
 I confirmed with other team members too. 
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback3.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/codeFeedback3.png" width="500" height="200">
 
 ## Reflection
 
 This weeks task alligned to the last issue i worked on, so it was more about updating last weeks code to include the issue in hand for this week i.e. to
 have view the supplies of all resources along side the OSSOC resouces. In the way as such in the following:
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/app1.png" width="500" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/app1.png" width="500" height="300">
 
 I am getting used to the process of software development, working on issues week on week, i am enjoying it now. 
 In regards to the testing, as a team we decided to priorotise focusing on working towards completing the issues remotely as testing has
