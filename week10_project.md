@@ -137,30 +137,28 @@ __Some of my code for this issue:__
 
 __The staff rota page:__
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/staffrotaPage.png" width="600" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/staffrotaPage.png" width="700" height="400">
 
+User in this page can select the date clicking on the date, which will bring up a calender to select. When a date is selected, it will display any staff
+working on the day. If there is no-one working, it will display a message that there is no staff assigned to work. When the date is selected, the user can
+click on "Add Staff" button which brings up the list of all staffs that are available to work, which can be selected to add to the day's rota. Once the users are selected,
+it will update the users that are scheduled to work for that date. The user can also click on the "Delete Staff" which will bring up a list of staff working on that day, and select
+the ones they want to delete from the rota for that date. 
 
+## Code Review Feedback
 
-Week 10 is the third and last week in a series in which the goal is to improve your 
-personal software engineering practice. Your portfolio entry has the same general content
-as last week's, including:
+I received the following feedback in my code review for this issue. The pull request didn't have any conflicts to the main branch, and there was no requested changes. 
+The pull request was successfully merged and closed. 
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/merged10.png" width="700" height="400">
 
-Be sure to include links to the original items in the team's GitHub repository.
+## Reflection
 
-In the reflective sections this week, you should highlight ways that you persona practice
-has improved as before. It would also be good to reflect on any improvements that have
-been made to the agreed team workflow and related procedures. Are things working
-better than they were? What further improvements could be made in the future?
+This week, i took a different task than usual which was amazing to work on, and i enjoyed writing the code for it. I initially planned what approach to take for this, 
+decided a design which alligned with other parts of the program to make it look similarly theamed, got to know a new thing i.e. adding calender to the MAUI applciation. 
+Wrote the code and had to spend alot of time on this, making this the longest time i have spent in an issue so far. 
+
+This week, i didn't get the oppurtunity to give a code review as the code review partner i had for this week in the team couldn't manage to make any progress to make a pull request
+on their issue. Since this module is making us used to the actual everyday workings of a software engineer on the job, this is also a likely scenario where a team member
+might not to able to push a code on time because, life happens, to everyone including software engineers. 
+Similarly, if due to such scenario, or if the issues can't get covered in a given sprint, it goes to the backlog of the team to work on in further sprints. 
