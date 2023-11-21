@@ -77,7 +77,7 @@ type to an appropriate one in their code. They made the changes and the branch w
 
 <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidan57.png" width="700" height="400">
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidan58.png" width="700" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidan58.png" width="700" height="250">
 
 
 ## Reflection
