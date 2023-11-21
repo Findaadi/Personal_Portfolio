@@ -75,4 +75,17 @@ my branch to the main branch.
 I reviewed a change requested on a code review on a prior weeks issue a team member was working on, they were requested to change the data
 type to an appropriate one in their code. They made the changes and the branch was good to merge to the main branch. 
 
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidan57.png" width="700" height="400">
 
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/aidan58.png" width="700" height="400">
+
+
+## Reflection
+
+This weeks issue i worked on is the kind of issue we would probably be exposed the most to in a working enviroment. 
+Having to oppurtunity to be a part of a professional software engineering team in a big financial institution, the SE1 and SE2 level
+engineers were mostly involved in such issues that inhances the current functionality rather than developing a completely new functionality on their own.
+
+While working on this, i initially planned on creating a different file to view the list of needs, which was due to my bad planning
+as i didnt completely go through the existing codes for the needs, which took me longer to code as in the last moment i had to change everything. 
+Taught me the valuable lesson to go through the exitisting code base, understand it clearly before planning your actions.
