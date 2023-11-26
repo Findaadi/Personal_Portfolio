@@ -138,7 +138,7 @@ __Some of my code for this issue:__
 
 __The Personal Event Management page:
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/staffrotaPage.png" width="700" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/lastweek2.png" width="700" height="400">
 
 User in this page can select the date clicking on the date, which will bring up a calender to select. When a date is selected, it will display a list of events for the selected date
 . If there is no pre-existing event, it will display a message that there is no event for the day. When the date is selected, the user can
