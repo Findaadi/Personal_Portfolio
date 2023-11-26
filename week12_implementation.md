@@ -136,7 +136,7 @@ __Some of my code for this issue:__
     }
 ```
 
-__The Personal Event Management page:
+__The Personal Event Calendar page:__
 
 <img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/lastweek2.png" width="700" height="400">
 
@@ -151,7 +151,7 @@ the ones they want to delete from the calander for that date.
 I received the following feedback in my code review for this issue. The pull request didn't have any conflicts with the main 
 branch, and there was no requested change. The pull request was successfully merged and the issue was closed. 
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/lastweek1.png" width="700" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/lastweek1.png" width="700" height="350">
 
 ## Reflection
 
