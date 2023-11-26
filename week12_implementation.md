@@ -151,7 +151,17 @@ the ones they want to delete from the calander for that date.
 I received the following feedback in my code review for this issue. The pull request didn't have any conflicts with the main 
 branch, and there was no requested change. The pull request was successfully merged and the issue was closed. 
 
-<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/merged10.png" width="700" height="400">
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/lastweek1.png" width="700" height="400">
 
 ## Reflection
 
+This week i didnt have an available pull request on time to provide a code review, without it i wasn't able
+to complete the part of assinment to do a code review. 
+
+This was the last week of working on these issues, and without even realizing, i have learnt so much 
+about what goes into everyday work of a software developer. There are alot of improvements needed in
+this task we have been given as a team, but overall, this was an amazing experience. 
+A major change needed in this assinment that i would make if i had the control would be to assign a title to
+the team members and give them tasks to handle. We need to have a pre-determined team leader, scrum lead and developers at least, which immitates
+an actual team that works in a coorporate environment. A team leader would primarily be someone with better technical knowledge and they are there for assisting developers in the team,
+who come across issues. Scrum lead can organizing the team workflow and developers will work on the issues assigned and nothing more additional to it. 
