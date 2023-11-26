@@ -1,29 +1,157 @@
-# Implementation
+# Project work 5
 
-Week 12 aims to integrate everything covered in the module.
+This week is the last week of the green team working on the issues for UN Disaster Assesment and coordination
+(UNDAC) App. In this week I worked on a issue that can use my knowledge from a previous issue i had worked on. 
 
-Your portfolio entry should demonstrate your abilities, highlight improvements that you
-have made during the course of the module and show your capacity to learn from experience
-through clear analytical reflection. The structure of this entry is similar to those from 
-weeks 8-10:
+## Issue worked on
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+```
+As an UNDAC Team Member, I want to view a personal calendar of events so that I can manage my time effectively
+```
 
-Be sure to include links to the original items in the team's GitHub repository.
+The objective of this weeks issue is so that a user can manage their personal calendar with their events so they can manage
+their time effectively. I had previously used on an issue that made use of calendar, which was to manage staff rota. 
+I decided to use something similar as I had experience in it, and using something similar which is tried and tested 
+and has been merged into the main branch is considerably better than experimenting with something different which wouldn't
+match the theme of the application.
+To start with it, I needed to make some changes to the previous issue. In the staff rota management task, i had hardcoded the list
+of staff which can then be selected and be inserted in the rota. 
 
-As with the earlier entries related to the team project, the reflective sections should
-consider your own practice and team processes. In addition, this is a good point to
-include your thoughts on the general challenges related to working in a software
-development team and the most effective methods to streamline operations and to safeguard
-the quality of the end product.
+For this issue, this needed to be changed as an event could be anything set by the user, which i can't pre-determine in order to hard code 
+them like the staff member list. I decided to let the user enter their event as a string and save that as an event in the selected calendar date. 
+
+__Some of my code for this issue:__
+
+```
+    public class Event
+    {
+        public DateTime Date { get; set; }
+        public string EventDetails { get; set; }
+
+        public Event(DateTime date, string eventDetails)
+        {
+            Date = date;
+            EventDetails = eventDetails;
+        }
+    }
+```
+
+```
+    public partial class PersonalEvents : ContentPage
+    {
+        List<Event> events = new List<Event>();
+
+        public PersonalEvents()
+        {
+            InitializeComponent();
+
+            Calender.DateSelected += OnCalenderSelected;
+            Add.Clicked += Add_click;
+            Delete.Clicked += Delete_click;
+        }
+
+        private void OnCalenderSelected(object sender, DateChangedEventArgs e)
+        {
+            DateTime selectedDate = e.NewDate;
+
+            var eventsForSelectedDate = events.Where(evt =>
+            evt.Date.Date == selectedDate.Date).ToList();
+            DisplayEventInformation(eventsForSelectedDate);
+        }
+
+        //to display the user entered personal events
+        private void DisplayEventInformation(List<Event> eventList)
+        {
+            if (eventList.Any())
+            {
+                information.Text = "Events for the selected date";
+                eventin.Text = string.Join(Environment.NewLine, eventList.Select(evt => evt.EventDetails));
+            }
+            else
+            {
+                information.Text = "No events for the selected date";
+                eventin.Text = string.Empty;
+            }
+        }
+
+        //to add an event user has entered
+        private async void Add_click(object sender, EventArgs e)
+        {
+            if (Calender.Date != null)
+            {
+                DateTime selectedDate = Calender.Date;
+
+                // Use an input dialog to get the event details from the user
+                var enteredEventDetails = await DisplayPromptAsync("Enter Event Details", "Type the details of the event:", "OK", "Cancel", "Event Details");
+
+                if (!string.IsNullOrEmpty(enteredEventDetails) && enteredEventDetails != "Cancel")
+                {
+                    events.Add(new Event(selectedDate, enteredEventDetails));
+                    var eventsForSelectedDate = events.Where(evt =>
+                    evt.Date.Date == selectedDate.Date).ToList();
+                    DisplayEventInformation(eventsForSelectedDate);
+                }
+            }
+        }
+
+        //to delete the selected event
+        private async void Delete_click(object sender, EventArgs e)
+        {
+            if (Calender.Date != null)
+            {
+                DateTime selectedDate = Calender.Date;
+
+                var eventsForSelectedDate = events.Where(evt =>
+                    evt.Date.Date == selectedDate.Date).ToList();
+
+                if (eventsForSelectedDate.Any())
+                {
+                    string selectedEvent;
+                    if (eventsForSelectedDate.Count > 1)
+                    {
+                        selectedEvent = await DisplayActionSheet("Select Event to Delete", "Cancel", null, eventsForSelectedDate.Select(evt => evt.EventDetails).ToArray());
+                    }
+                    else
+                    {
+                        selectedEvent = eventsForSelectedDate[0].EventDetails;
+                    }
+
+                    if (selectedEvent != "Cancel")
+                    {
+                        var eventToDelete = eventsForSelectedDate.FirstOrDefault(evt => evt.EventDetails == selectedEvent);
+                        if (eventToDelete != null)
+                        {
+                            events.Remove(eventToDelete);
+                            DisplayEventInformation(eventsForSelectedDate);
+                        }
+                    }
+                }
+                else
+                {
+                    information.Text = "No events for the selected date";
+                    eventin.Text = string.Empty;
+                }
+            }
+        }
+    }
+```
+
+__The Personal Event Management page:
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/staffrotaPage.png" width="700" height="400">
+
+User in this page can select the date clicking on the date, which will bring up a calender to select. When a date is selected, it will display a list of events for the selected date
+. If there is no pre-existing event, it will display a message that there is no event for the day. When the date is selected, the user can
+click on "Add Event" button which brings up a prompt to write an event and save it for the selected date. Once the users are saves an event,
+it will update the event that are for the date. The user can also click on the "Delete Event" which will bring up a list of the events on that day, and select
+the ones they want to delete from the calander for that date. 
+
+## Code Review Feedback
+
+I received the following feedback in my code review for this issue. The pull request didn't have any conflicts with the main 
+branch, and there was no requested change. The pull request was successfully merged and the issue was closed. 
+
+<img src="https://github.com/Findaadi/Personal_Portfolio/blob/main/images/merged10.png" width="700" height="400">
+
+## Reflection
+
